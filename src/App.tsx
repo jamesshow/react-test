@@ -3,14 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 import Counter from './components/counter/counter';
 import AppLanguage from './components/context/AppLanguage';
+import UseQueryApp from './components/useQuery/UseQueryApp';
 
 function App() {
-  // return (
-  //   <Counter />
-  // );
-
   return (
-    <AppLanguage />
+    <div>
+       <Counter />
+       <hr/>
+      <AppLanguage />
+      <hr/>
+      <UseQueryApp />
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@ import { LanguageMenu } from './LanguageMenu';
 
 import './AppLanguage.css';
 
-function AppLanguage() {
+const AppLanguage = () => {
   const [language, setLanguage] = React.useState<string>("en");
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
@@ -16,4 +16,3 @@ function AppLanguage() {
 }
 
 export default AppLanguage;
-
