@@ -49,5 +49,9 @@ describe('Skills', () => {
         )
         // screen.debug();
         expect(startLearningButton).toBeInTheDocument();
-    })
+    });
+
+
+
+
 });
